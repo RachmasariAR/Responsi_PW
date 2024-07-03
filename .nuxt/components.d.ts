@@ -4,6 +4,7 @@ type IslandComponent<T extends DefineComponent> = T & DefineComponent<{}, {}, {}
 interface _GlobalComponents {
       'AboutSection': typeof import("../components/AboutSection.vue")['default']
     'ContactSection': typeof import("../components/ContactSection.vue")['default']
+    'Header': typeof import("../components/Header.vue")['default']
     'HeroSection': typeof import("../components/HeroSection.vue")['default']
     'ProjectsSection': typeof import("../components/ProjectsSection.vue")['default']
     'NuxtWelcome': typeof import("../node_modules/nuxt/dist/app/components/welcome")['default']
@@ -31,6 +32,7 @@ interface _GlobalComponents {
     'NuxtRouteAnnouncer': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
       'LazyAboutSection': typeof import("../components/AboutSection.vue")['default']
     'LazyContactSection': typeof import("../components/ContactSection.vue")['default']
+    'LazyHeader': typeof import("../components/Header.vue")['default']
     'LazyHeroSection': typeof import("../components/HeroSection.vue")['default']
     'LazyProjectsSection': typeof import("../components/ProjectsSection.vue")['default']
     'LazyNuxtWelcome': typeof import("../node_modules/nuxt/dist/app/components/welcome")['default']
@@ -72,6 +74,7 @@ declare module 'vue' {
 
 export const AboutSection: typeof import("../components/AboutSection.vue")['default']
 export const ContactSection: typeof import("../components/ContactSection.vue")['default']
+export const Header: typeof import("../components/Header.vue")['default']
 export const HeroSection: typeof import("../components/HeroSection.vue")['default']
 export const ProjectsSection: typeof import("../components/ProjectsSection.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome")['default']
@@ -99,6 +102,7 @@ export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const NuxtRouteAnnouncer: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
 export const LazyAboutSection: typeof import("../components/AboutSection.vue")['default']
 export const LazyContactSection: typeof import("../components/ContactSection.vue")['default']
+export const LazyHeader: typeof import("../components/Header.vue")['default']
 export const LazyHeroSection: typeof import("../components/HeroSection.vue")['default']
 export const LazyProjectsSection: typeof import("../components/ProjectsSection.vue")['default']
 export const LazyNuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome")['default']

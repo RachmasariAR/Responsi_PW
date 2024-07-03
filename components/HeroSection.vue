@@ -28,6 +28,10 @@
               <div class="card mt-3">
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                    <h6 class="mb-0"><img src = "https://w7.pngwing.com/pngs/528/1/png-transparent-logo-whatsapp-computer-icons-viber-text-viber-area.png" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe mr-2 icon-inline"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></img>Phone</h6>
+                    <span class="text-secondary" text-align="left"><br>+6287749934057</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                     <h6 class="mb-0"><img src = "https://w7.pngwing.com/pngs/608/931/png-transparent-gmail-new-logo-icon.png" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe mr-2 icon-inline"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></img>Gmail</h6> 
                     <span class="text-secondary">rachmasari.ar@students.amikom.ac.id</span>
                   </li>
@@ -106,16 +110,54 @@
                   <div class="card mb-3">
                     <div class="card-body">
                       <h5 class="d-flex align-items-center mb-3">Skill</h5>
-                      <h7>• Bahasa Inggris</h7> <br>
-                      <h7>• Bahasa Pemrograman C++, SQL, Python, C#</h7> <br>
-                      <h7>• Microsoft Office</h7> <br>
-                      <h7>• Problem Solving</h7> <br>
-                      <h7>• Mampu bekerja secara individu maupun tim</h7> <br>
-                      <h7>• Mampu berkomunikasi secara efektif</h7> <br>
+                      <h7><li>Bahasa Inggris</li>
+                      <li>Bahasa Pemrograman C++, SQL, Python, C#</li>
+                      <li>Microsoft Office</li>
+                      <li>Problem Solving</li>
+                      <li>Mampu bekerja secara individu maupun tim</li>
+                      <li>Mampu berkomunikasi secara efektif</li>
+                      </h7>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-12">
+                    <div class="card mb-3">
+                      <div class="card-body">
+                        <h5 class="d-flex align-items-center mb-3">Short Course</h5>
+                        <div class="row">
+                          <div class="col-sm-3">
+                            <h6 class="mb-0">Maret 2024</h6>
+                          </div>
+                          <div class="col-sm-9">
+                            Belajar Dasar Visualisasi Data <br>
+                            Dicoding Indonesia 
+                          </div>
+                        </div> <br>
+                        <div class="row">
+                          <div class="col-sm-3">
+                            <h6 class="mb-0">05–16 Februari 2024</h6>
+                          </div>
+                          <div class="col-sm-9">
+                            Mini Course Intro to Data Analytics <br>
+                            RevoU 
+                          </div>
+                        </div> <br>
+                        <div class="row">
+                          <div class="col-sm-3">
+                            <h6 class="mb-0">19 Maret 2023</h6>
+                          </div>
+                          <div class="col-sm-9">
+                            Short Class Basic Statistics and Data Visualization <br>
+                            MySkill 
+                          </div>
+                        </div> <br>
+                      </div>
+                    </div>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="col-md-12">
                   <div class="card h-100">
                     <div class="card-body">
                       <h5 class="d-flex align-items-center mb-3">Experience</h5>
@@ -174,17 +216,12 @@
                     </div>
                   </div>     
                       
-                      
-                    </div>
                   </div>
+                  
+                  </div>
+
                 </div>
-              </div>
-
-
-
-            </div>
           </div>
-
         </div>
     </div>
    
@@ -205,7 +242,7 @@ export default {
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(110,133,183,1) 35%, rgba(178,200,223,1) 100%); */
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
-	animation: gradient 7s ease infinite;
+	animation: gradient 6s ease infinite;
 }
 @keyframes gradient {
 	0% {
