@@ -1,1 +1,1 @@
-export { default } from "file:///E:/Kuliah/Semester%204/Pemrograman%20Web/nuxt-individu-main/nuxt-individu-main/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
+export { default } from "file:///E:/Kuliah/Semester%204/Pemrograman%20Web/Responsi_PW/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
