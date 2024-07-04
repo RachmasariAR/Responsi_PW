@@ -3,6 +3,7 @@
     <MyHeader />
     <HeroSection />
     <AboutSection />
+    <ContactSection />
   </div>
 </template>
 
@@ -18,7 +19,7 @@ export default {
     MyHeader,
     AboutSection,
     HeroSection,
-    
+    ContactSection,
   }
 }
 </script>./Index.vue

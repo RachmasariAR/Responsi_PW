@@ -1,40 +1,38 @@
 <template>
   <section class="about">
-    <h2>About Me</h2>
+    <!-- <h2>About Me</h2>
     <p>Mahasiswa semester 4 jurusan S1 Informatika, Universitas Amikom Yogyakarta yang saat ini sedang 
         mengambil konsentrasi Software Engineer dan Big Data Analytics dengan pengalaman berorganisasi 
         dan bekerja dalam tim. Senang mempelajari hal baru, memiliki keterampilan komunikasi, dan 
         berdedikasi untuk bekerja dalam tim. Bersemangat mengejar karir terutama dalam bidang pengolahan 
-        dan analisis data.</p>
+        dan analisis data.</p> -->
 
         <div class="responsive-container-block bigContainer">
           <div class="responsive-container-block Container bottomContainer">
             <div class="ultimateImg">
-              <img class="mainImg" src="../components/Foto.JPG">
-              <div class="purpleBox">
-                <p class="purpleText">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget purus lectus viverra in semper nec pretium mus.
-                </p>
-                <img class="stars" src="../components/Foto.JPG">
-              </div>
+              <img class="mainImg" src="../assets/Foto.JPG" height="100">
             </div>
-            <div class="allText bottomText">
-              <p class="text-blk headingText">
-                About Me
-              </p>
-              <p class="text-blk subHeadingText">
-                Rachmasari Annisa Rida
-              </p>
-              <p class="text-blk description">
-                Mahasiswa semester 4 jurusan S1 Informatika, Universitas Amikom Yogyakarta yang saat ini sedang 
-                mengambil konsentrasi Software Engineer dan Big Data Analytics dengan pengalaman berorganisasi 
-                dan bekerja dalam tim. Senang mempelajari hal baru, memiliki keterampilan komunikasi, dan 
-                berdedikasi untuk bekerja dalam tim. Bersemangat mengejar karir terutama dalam bidang pengolahan 
-                dan analisis data.
-              </p>
-              <a class="explore">
-                Curriculum Vitae
-              </a>
+            <div class="col-md-8">
+              <div class="allText bottomText">
+                <h2 class="text-blk headingText">
+                  About Me
+                </h2>
+                <h5 class="text-blk subHeadingText">
+                  Rachmasari Annisa Rida
+                </h5>
+                <p class="text-blk description">
+                  Mahasiswa semester 4 jurusan S1 Informatika, Universitas Amikom Yogyakarta yang saat ini sedang 
+                  mengambil konsentrasi Software Engineer dan Big Data Analytics dengan pengalaman berorganisasi 
+                  dan bekerja dalam tim. Senang mempelajari hal baru, memiliki keterampilan komunikasi, dan 
+                  berdedikasi untuk bekerja dalam tim. Bersemangat mengejar karir terutama dalam bidang pengolahan 
+                  dan analisis data.
+                </p>
+                <button>
+                  <a class="explore" href="https://drive.google.com/file/d/1LChpTxkduFRyoPVA7E-xXWQ1Ft9Wjs8O/view?usp=sharing">
+                  Curriculum Vitae
+                </a>
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -82,6 +80,7 @@ a {
   text-decoration-thickness: initial;
   text-decoration-style: initial;
   text-decoration-color: initial;
+  color:black;
 }
 
 .text-blk {
@@ -98,7 +97,7 @@ a {
 
 .mainImg {
   color: black;
-  width: 100%;
+  width: 500px;
   height: auto;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -107,6 +106,7 @@ a {
 }
 
 .explore{
-  
+
 }
+
 </style>
