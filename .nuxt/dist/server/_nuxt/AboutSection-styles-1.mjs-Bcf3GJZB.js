@@ -1,0 +1,5 @@
+const AboutSection_vue_vue_type_style_index_0_scoped_b9b240b1_lang = ".about[data-v-b9b240b1]{animation:gradient 6s ease infinite;background:linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab);background-size:400% 400%;padding:100px 0;text-align:left}[data-v-b9b240b1]{font-family:Poppins,sans-serif}.responsive-container-block[data-v-b9b240b1]{display:flex;flex-wrap:wrap;height:-moz-fit-content;height:fit-content;justify-content:flex-start;margin:0 auto;min-height:75px;padding:10px;width:100%}a[data-v-b9b240b1]{color:#000;text-decoration-color:initial;text-decoration-line:none;text-decoration-style:solid;text-decoration-thickness:auto}.text-blk[data-v-b9b240b1]{line-height:25px;margin:0;padding:10px}.mainImg[data-v-b9b240b1]{border-bottom-left-radius:10px;border-bottom-right-radius:10px;border-top-left-radius:10px;border-top-right-radius:10px;color:#000;height:auto;width:500px}";
+export {
+  AboutSection_vue_vue_type_style_index_0_scoped_b9b240b1_lang as default
+};
+//# sourceMappingURL=AboutSection-styles-1.mjs-Bcf3GJZB.js.map

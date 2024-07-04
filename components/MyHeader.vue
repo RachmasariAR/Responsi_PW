@@ -41,4 +41,5 @@
 useHead({
   script: [ { src: '/assets/navbar.js' } ]
 })
+
 </script>
