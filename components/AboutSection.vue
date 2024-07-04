@@ -10,7 +10,7 @@
         <div class="responsive-container-block bigContainer">
           <div class="responsive-container-block Container bottomContainer">
             <div class="ultimateImg">
-              <img class="mainImg" src="~/assets/Foto.JPG" height="100">
+              <img class="mainImg" src="~/assets/Foto.jpg" height="100">
             </div>
             <div class="col-md-8">
               <div class="allText bottomText">
