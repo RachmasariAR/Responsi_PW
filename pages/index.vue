@@ -1,7 +1,8 @@
 <template>
   <div>
-    <Header />
+    <MyHeader />
     <HeroSection />
+    <AboutSection />
   </div>
 </template>
 
@@ -10,11 +11,11 @@ import HeroSection from '~/components/HeroSection.vue';
 import AboutSection from '~/components/AboutSection.vue';
 import ProjectsSection from '~/components/ProjectsSection.vue';
 import ContactSection from '~/components/ContactSection.vue';
-import Header from '~/components/Header.vue'
+import MyHeader from '../components/MyHeader.vue';
 
 export default {
   components: {
-    Header,
+    MyHeader,
     AboutSection,
     HeroSection,
     
